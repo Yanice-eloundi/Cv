@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+        <link rel="icon" href="image/logo-yanice.svg" type="image/svg+xml" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:ital,wght@0,100..900;1,100..900&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Onest:wght@100..900&family=Outfit:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>CV EL Oundi Yanice</title>
+    </head>
+
+    <body>
+        <header>
+            <a href="#hero">
+                <img src="image/logo-yanice.svg" alt="logo-yanice" class="logo"
+            /></a>
+
+            <!-- Menu burger -->
+
+            <button
+                type="button"
+                id="navToggle"
+                class="nav-toggle"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+                aria-controls="mainNav"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Barre de navigation -->
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétence</a></li>
+                    <li><a href="#formation">Formation</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#projects">Projet</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Présentation rapide avec photo -->
+
+        <section id="presentation">
+            <div class="presentation-text">
+                <h1>HELLO WORLD !</h1>
+                <p class="presentation-role">Développeur Web, UX/UI Designer</p>
+                <p class="presentation-pitch">
+                    Plus de 4 ans d'expérience en design d'interface,
+                    aujourd'hui en reconversion vers le développement web à
+                    Epitech.
+                </p>
+            </div>
+            <img
+                src="image/photo-yanice.png"
+                alt="Photo de EL Oundi Yanice"
+                class="presentation-photo"
+            />
+        </section>
+
+        <!-- à propos de moi -->
+
+        <section id="about">
+            <h2>Qui suis-je ?</h2>
+            <p>
+                J'ai 27 ans, je viens de <b>Vernon</b>, en Normandie, et
+                poursuis aujourd'hui mon parcours professionnel en développement
+                web après 4 années d'expérience où j'ai eu l'opportunité
+                d'accompagner des projets numériques en tant que designer UX/UI
+                en alternance, que ce soit en recherche utilisateur, maquettes
+                ou intégration front-end. <br />
+                <br />
+                Je poursuis aujourd'hui cette trajectoire au <b>Pré-MSc</b> en
+                année préparatoire <b>d'Epitech Paris</b>, pour ajouter une
+                vraie compétence de développement à mon profil de designer. J'ai
+                pour projet, ensuite, une spécialisation dans un domaine
+                spécifique de la tech à partir du Master of Science 1, à compter
+                de l'année prochaine.
+            </p>
+        </section>
+
+        <!-- Compétences - Skills -->
+
+        <section id="skills">
+            <h2>Compétences</h2>
+
+            <div class="skills-grid">
+                <div class="skills-group">
+                    <h3>Design</h3>
+                    <ul class="tag-list">
+                        <li>Figma</li>
+                        <li>Suite Adobe</li>
+                        <li>UX/UI</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group">
+                    <h3>Développement web</h3>
+                    <ul class="tag-list">
+                        <li>HTML / CSS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <div class="skills-group">
+                    <h3>Outils</h3>
+                    <ul class="tag-list">
+                        <li>SharePoint / CMS</li>
+                        <li>Microsoft 365</li>
+                        <li>Git / GitHub</li>
+                        <li>Claude IA</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formation -->
+
+        <section id="formation">
+            <h2>Formation</h2>
+
+            <ol class="timeline">
+                <li class="timeline-item">
+                    <span class="timeline-date">Depuis 09/2026</span>
+                    <h3>
+                        Pré-MSc, année préparatoire en développement
+                        informatique - Epitech Paris
+                    </h3>
+                </li>
+
+                <li class="timeline-item">
+                    <span class="timeline-date">2023 – 2024</span>
+                    <h3>
+                        Mastère 1, Directeur Artistique Multimédia - L'Ecole
+                        Multimédia
+                    </h3>
+                </li>
+
+                <li class="timeline-item">
+                    <span class="timeline-date">2022 – 2023</span>
+                    <h3>Licence pro, Webdesign UI - MJM Design Graphic</h3>
+                </li>
+
+                <li class="timeline-item">
+                    <span class="timeline-date">2017 – 2019</span>
+                    <h3>
+                        BTS, Étude et réalisation d'un projet de communication
+                        plurimédia - AFI-LNR
+                    </h3>
+                </li>
+
+                <li class="timeline-item">
+                    <span class="timeline-date">2014 – 2017</span>
+                    <h3>
+                        Bac pro art et communication visuelle - Lycée Modest
+                        Leroy
+                    </h3>
+                </li>
+            </ol>
+        </section>
+
+        <!-- Experience -->
+
+        <section id="experience">
+            <h2>Expérience</h2>
+
+            <article class="experience-item">
+                <div class="experience-head">
+                    <h3>
+                        Administrateur web & webdesigner en alternance — Allianz
+                        France
+                    </h3>
+                    <span class="experience-dates">11/2022 – 11/2024</span>
+                </div>
+                <ul>
+                    <li>
+                        Développer et intégrer des plateformes internes sous CMS
+                        pour 8 500 collaborateurs répartis sur 2 500 agences
+                    </li>
+                    <li>
+                        Analyser les besoins fonctionnels, rédiger les
+                        spécifications et contribuer aux User Stories en lien
+                        avec les équipes métier
+                    </li>
+                    <li>
+                        Intégrer des interfaces (HTML, CSS) en appliquant les
+                        bonnes pratiques de qualité et de responsive design
+                    </li>
+                    <li>
+                        Assurer le support utilisateur, diagnostiquer les
+                        incidents et rédiger la documentation technique
+                    </li>
+                    <li>
+                        Participer au déploiement du nouvel intranet national,
+                        de la recette à la mise en production
+                    </li>
+                </ul>
+            </article>
+
+            <article class="experience-item">
+                <div class="experience-head">
+                    <h3>Opérateur polyvalent - Ferrero</h3>
+                    <span class="experience-dates">07/2026 – 08/2026</span>
+                </div>
+                <ul>
+                    <li>
+                        Polyvalence sur ligne de production, respect des
+                        cadences et des consignes de sécurité
+                    </li>
+                </ul>
+            </article>
+
+            <article class="experience-item">
+                <div class="experience-head">
+                    <h3>Graphic Designer en alternance — Aware 360</h3>
+                    <span class="experience-dates">02/2022 – 06/2022</span>
+                </div>
+                <ul>
+                    <li>
+                        Concevoir des maquettes de landing pages et supports
+                        marketing en lien avec les équipes produit
+                    </li>
+                    <li>
+                        Développer l'identité visuelle de la marque et assurer
+                        la cohérence graphique
+                    </li>
+                </ul>
+            </article>
+
+            <article class="experience-item">
+                <div class="experience-head">
+                    <h3>Graphic Designer en alternance — Sityoka Design</h3>
+                    <span class="experience-dates">10/2017 – 09/2019</span>
+                </div>
+                <ul>
+                    <li>
+                        Gérer des projets clients de bout en bout dans le
+                        respect des délais et du cahier des charges
+                    </li>
+                    <li>
+                        Concevoir des supports visuels variés et rédiger les
+                        livrables associés
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Les projets -->
+
+        <section id="projects">
+            <h2>Projets</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>FastSubway</h3>
+                    <p>
+                        Application web de transport/géolocalisation en
+                        HTML/CSS/JS natif (Geolocation, Overpass, Nominatim).
+                    </p>
+                    <a
+                        href="https://fast-subway.netlify.app/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Voir l'application web</a
+                    >
+                </article>
+
+                <article class="project-card">
+                    <h3>Animes sports zone</h3>
+                    <p>
+                        Conception et développement d'une application web :
+                        analyse des besoins, user stories, maquettes Figma,
+                        développement front-end (HTML, CSS), tests et
+                        documentation
+                    </p>
+                    <a
+                        href="https://yanice-eloundi.myportfolio.com/animes-sports-zone"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Voir le projet</a
+                    >
+                </article>
+
+                <article class="project-card">
+                    <h3>Portfolio design</h3>
+                    <p>
+                        Sélection de projets UX/UI réalisés en alternance et en
+                        formation.
+                    </p>
+                    <a
+                        href="https://yanice-eloundi.myportfolio.com/projets"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Voir le portfolio</a
+                    >
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact -->
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Une question, une opportunité d'alternance ? Écrivez-moi.</p>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-row">
+                    <label for="name">Nom et prénom</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Envoyer</button>
+            </form>
+        </section>
+
+        <!-- Le footer -->
+
+        <footer>
+            <p>&copy; <span id="year"></span> Yanice Eloundi</p>
+            <ul class="footer-links">
+                <li>
+                    <a
+                        href="https://github.com/Yanice-eloundi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Github</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://yanice-eloundi.myportfolio.com/projets"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Portfolio</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/yanice-el-oundi-65b541149/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Linkedin</a
+                    >
+                </li>
+            </ul>
+        </footer>
+
+        <!-- Javascript pour le menu burger-->
+
+        <script src="script.js"></script>
+    </body>
+</html>
